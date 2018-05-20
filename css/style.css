@@ -11,6 +11,7 @@
 	padding: 0;
 	border-radius: 0px;
 	box-shadow: 1px 1px 5px -3px grey;
+		margin-bottom: 20px;
 }
 
 @media screen and (min-width: 518px){
@@ -21,6 +22,7 @@
 
 .row{
 	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .container{
