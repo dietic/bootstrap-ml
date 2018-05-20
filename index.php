@@ -23,10 +23,17 @@
 	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
+		  <h5 class="card-title text-center">iPad air</h5>
+		  <div class="text-center">
+			  <i class="far fa-star"></i>
+			  <i class="far fa-star"></i>
+			  <i class="far fa-star"></i>
+			  <i class="far fa-star"></i>
+			  <i class="far fa-star"></i>
+		  </div>
 		</div>
 		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
+		    <li class="list-group-item text-center"><b>$ 35</b></li>
 	  	</ul>
 	</div>
 	<?php } ?>

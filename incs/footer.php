@@ -1,5 +1,5 @@
-<footer class="footer bg-light">
-	<div class="container-fluid">
+<footer class="footer bg-light" style="padding-top: 10px; padding-bottom: 10px;">
+	<div class="container-fluid" >
 		<p style="margin: 0; text-align: center;">&copy; Copyright - 2018</p>
 	</div>
 </footer>
