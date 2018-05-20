@@ -63,8 +63,52 @@
 	    </div>
   	</div>
 </div>
+<div class="row">
+	<div class="card col-sm-6 col-lg-4">
+		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		</div>
+		<ul class="list-group list-group-flush">
+		    <li class="list-group-item">Cras justo odio</li>
+	  	</ul>
+	</div>
+	<div class="card col-sm-6 col-lg-4">
+		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		</div>
+		<ul class="list-group list-group-flush">
+		    <li class="list-group-item">Cras justo odio</li>
+	  	</ul>
+	</div>
+	<div class="card col-sm-6 col-lg-4">
+		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		</div>
+		<ul class="list-group list-group-flush">
+		    <li class="list-group-item">Cras justo odio</li>
+	  	</ul>
+	</div>
+	<div class="card col-sm-6 col-lg-4">
+		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		</div>
+		<ul class="list-group list-group-flush">
+		    <li class="list-group-item">Cras justo odio</li>
+	  	</ul>
+	</div>	
 
-<div class="card-deck">
+
+</div>
+
+<!-- <div class="card-deck">
 	<div class="card">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
@@ -95,31 +139,7 @@
 		    <li class="list-group-item">Cras justo odio</li>
 	  	</ul>
 	</div> 
-</div>
-
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-  </div>
-</div>
+</div> -->
 
 <?php include 'incs/footer.php'; ?>
 		
