@@ -64,6 +64,7 @@
   	</div>
 </div>
 <div class="row">
+	<?php for($i = 0; $i < 10; $i++) { ?>
 	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
@@ -73,69 +74,13 @@
 		    <li class="list-group-item">Cras justo odio</li>
 	  	</ul>
 	</div>
-	<div class="card col-6 col-lg-4">
-		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
-		</div>
-		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
-	  	</ul>
-	</div>
-	<div class="card col-6 col-lg-4">
-		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
-		</div>
-		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
-	  	</ul>
-	</div>
-	<div class="card col-6 col-lg-4">
-		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
-		</div>
-		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
-	  	</ul>
-	</div>	
+	<?php } ?>
+	
 
 
 </div>
 
-<!-- <div class="card-deck">
-	<div class="card">
-		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
-		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		</div>
-		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
-	  	</ul>
-	</div>
-	<div class="card">
-		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
-		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		</div>
-		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
-	  	</ul>
-	</div>
-	<div class="card">
-		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
-		<div class="card-body">
-		  <h5 class="card-title">Card title</h5>
-		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-		</div>
-		<ul class="list-group list-group-flush">
-		    <li class="list-group-item">Cras justo odio</li>
-	  	</ul>
-	</div> 
-</div> -->
+
 
 <?php include 'incs/footer.php'; ?>
 		
