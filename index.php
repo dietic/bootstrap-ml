@@ -64,7 +64,7 @@
   	</div>
 </div>
 <div class="row">
-	<div class="card col-sm-6 col-lg-4">
+	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
 		  <h5 class="card-title">Card title</h5>
@@ -74,7 +74,7 @@
 		    <li class="list-group-item">Cras justo odio</li>
 	  	</ul>
 	</div>
-	<div class="card col-sm-6 col-lg-4">
+	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
 		  <h5 class="card-title">Card title</h5>
@@ -84,7 +84,7 @@
 		    <li class="list-group-item">Cras justo odio</li>
 	  	</ul>
 	</div>
-	<div class="card col-sm-6 col-lg-4">
+	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
 		  <h5 class="card-title">Card title</h5>
@@ -94,7 +94,7 @@
 		    <li class="list-group-item">Cras justo odio</li>
 	  	</ul>
 	</div>
-	<div class="card col-sm-6 col-lg-4">
+	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
 		<div class="card-body">
 		  <h5 class="card-title">Card title</h5>
