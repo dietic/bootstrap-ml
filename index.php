@@ -18,7 +18,7 @@
 	    </div>
   	</div>
 </div>
-<!--<div class="row">a
+<!--<div class="row">as
 	<?php /*for($i = 0; $i < 5; $i++) { */?>
 	<div class="card col-6 col-lg-4">
 		<img class="card-img-top" src="images/ipad-placeholder.jpg" alt="Card image cap">
