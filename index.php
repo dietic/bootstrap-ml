@@ -39,13 +39,13 @@
 	<?php /*}*/ ?>
 </div>-->
 
-<div class="row" style="height: 500px;">
-    <div class="col-sm-6 col-lg-6" style="background-color:#AF82B5; height:100%;">
+<div class="row secciones">
+    <div class="left-col col-12 col-sm-6 col-lg-6">
     </div>
-    <div class="col-sm-6 col-lg-6" style="background-color:white; height:100%; padding: 0; padding-left: 10px;">
-        <div class="inside" style="height: 50%; background-color: #FFD2B5;">
+    <div class="right-col col-12 col-sm-6 col-lg-6">
+        <div class="inside" style="background-color: #FFD2B5;">
         </div>
-        <div class="inside" style="height: 50%; background-color: #B3E19F;">
+        <div class="inside" style="background-color: #B3E19F;">
         </div>
     </div>
 </div>

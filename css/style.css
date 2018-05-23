@@ -32,3 +32,55 @@
 .container{
 	padding: 0;
 }
+
+.secciones{
+    height: 300px;
+    margin-top: 0;
+    background-color: rgba(0.5, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 768px){
+    .secciones{
+        height: 500px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.secciones .right-col,
+.secciones .left-col{
+    height: 100%;
+    padding: 0;
+    background-color: rgba(0.5, 0, 0, 0.01);
+}
+
+.secciones .left-col{
+    background-color: #9C7A9D;
+}
+
+@media only screen and (min-width: 768px){
+    .secciones .right-col{
+        padding-left: 5px;
+    }
+    .secciones .left-col{
+        padding-right: 5px;
+    }
+}
+.secciones .right-col .inside{
+        height: 50%;
+    }
+
+@media only screen and (min-width: 768px){
+    .secciones .right-col .inside{
+        height: 49.5%;
+    }
+
+    .secciones .right-col .inside:nth-child(1){
+        margin-bottom:1.5%
+    }
+
+    .secciones .right-col .inside:nth-child(2){
+        margin-top:1.5%
+    }
+}
