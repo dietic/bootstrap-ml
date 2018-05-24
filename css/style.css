@@ -21,10 +21,13 @@
 }
 
 @media only screen and (min-width: 768px){
+    
+    .secciones-wrapper .secciones:nth-child(1){
+        padding-top: 20px;
+    }
     .secciones{
         height: 500px;
         margin: 0 auto;
-        padding-top: 20px;
         padding-bottom: 20px;
     }
 }
@@ -46,7 +49,7 @@
     .secciones .left-col{
         height: 300px;
         padding-right: 11px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
     .secciones .right-col{
         height: 300px;
