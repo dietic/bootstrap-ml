@@ -41,14 +41,16 @@
 
 <div class="row secciones">
     <div class="left-col col-12 col-sm-6 col-lg-6">
+        <p></p>
     </div>
     <div class="right-col col-12 col-sm-6 col-lg-6">
-        <div class="inside" style="background-color: #FFD2B5;">
+        <div class="inside" style="background-color: #FFEBEA;">
         </div>
-        <div class="inside" style="background-color: #B3E19F;">
+        <div class="inside" style="background-color: #FFEBEA; background-color: black;">
         </div>
     </div>
 </div>
+<div class="row test" style="background-color:red; height:50px;"></div>
 
 <?php include 'incs/footer.php'; ?>
 		

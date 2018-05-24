@@ -9,3 +9,9 @@ $('.dropdown').on('hide.bs.dropdown', function(e){
 $('.carousel').carousel({
   interval: 1000 * 3
 });
+
+$(window).resize(function(){
+   var vh = $(window).height();
+   var vw = $(window).width();
+    $('.left-col p').html('Viewport height: '+vh+' Viewport width: '+vw);
+});
