@@ -1,5 +1,6 @@
 <?php include 'incs/header.php'; ?>
 <?php include 'incs/navbar.php'; ?>
+<?php include 'incs/modals.php'; ?>
 <?php include 'incs/carrousel.php'; ?>
 <div class="secciones-wrapper">
     <?php for($i = 0; $i < 3; $i++) { ?>
@@ -8,9 +9,9 @@
             <p></p>
         </div>
         <div class="right-col col-12 col-sm-6 col-lg-6">
-            <div class="inside" style="background-color: #FFEBEA;">
+            <div class="inside" >
             </div>
-            <div class="inside" style="background-color: #FFEBEA; background-color: black;">
+            <div class="inside" >
             </div>
         </div>
     </div>

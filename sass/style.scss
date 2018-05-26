@@ -1,0 +1,239 @@
+$left: #FBB8C6;
+$right-top: #F7C9D3;
+$right-bottom: #B79EA4;
+$btn-cerrar: #B79EA4;
+$btn-enter: #FBB8C6;
+$links: #FBB8C6;
+
+.container{
+	padding: 0;
+    min-width: 400px;
+}
+
+.navbar-search{
+	width: 80%;
+	margin-right: 20px;
+}
+
+.row{
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.row-without-margin{
+    margin: 0 auto;
+}
+
+.test{
+    margin: 0 auto;
+}
+
+/** MAIN PAGE STYLES **/
+
+.secciones{
+/*    height: 300px;*/
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 768px){
+    
+    .secciones-wrapper .secciones:nth-child(1){
+        padding-top: 20px;
+    }
+    .secciones{
+        height: 500px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+
+.secciones .right-col,
+.secciones .left-col{
+/*    height: 300px;*/
+    padding: 0;
+}
+
+.secciones .left-col{
+    background-color: $left;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+@media only screen and (min-width: 576px){
+    .secciones .left-col{
+        height: 300px;
+        padding-right: 11px;
+        margin-bottom: 10px;
+    }
+    .secciones .right-col{
+        height: 300px;
+        padding-left: 11px;
+    }    
+}
+
+@media only screen and (min-width: 768px){
+    .secciones .left-col{
+        height: 100%;
+    }
+    .secciones .right-col{
+        height: 100%;
+    }    
+}
+
+.secciones .right-col .inside{
+    
+    height: 300px;
+}
+
+.secciones .right-col .inside:nth-child(1){
+    background-color: $right-top;
+    margin-bottom: 10px;
+}
+
+.secciones .right-col .inside:nth-child(2){
+    background-color: $right-bottom;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 576px){
+    .secciones .right-col .inside{
+        height: 48%;
+    }
+
+    .secciones .right-col .inside:nth-child(1){
+        margin-bottom: 0;
+
+    }
+
+    .secciones .right-col .inside:nth-child(2){
+        margin-bottom: 0;
+        margin-top: 4.5%;
+    }    
+}
+
+
+@media only screen and (min-width: 768px){
+    .secciones .right-col .inside{
+        height: 48%
+    }
+
+    .secciones .right-col .inside:nth-child(1){
+    
+    }
+
+    .secciones .right-col .inside:nth-child(2){
+        margin-top: 5.1%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .secciones .right-col .inside{
+        height: 48%;
+    }
+
+    .secciones .right-col .inside:nth-child(1){
+        
+    }
+
+    .secciones .right-col .inside:nth-child(2){
+        margin-top: 3.9%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .secciones .right-col .inside{
+        height: 48%;
+    }
+
+    .secciones .right-col .inside:nth-child(1){
+        
+    }
+
+    .secciones .right-col .inside:nth-child(2){
+        margin-top: 3.3%;
+    }
+}
+
+/** GENERAL FORMS **/
+.modal{
+    min-width: 400px;
+}
+
+.modal h5{
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+.form-group{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.no-border-input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.no-border-input:focus{
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: $links;
+}
+
+.email-input{
+    background: url('../images/icons/avatar.png'); /*Image size 64px*/
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 7%;
+    padding-left: 33px;
+}
+
+.pw-input{
+    background: url('../images/icons/locked.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 7%;
+    padding-left: 33px;
+}
+
+.login-option-link{
+    padding: 5px 0;
+}
+
+.login-option-link a{
+    color: $links;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+.modal-header .close{
+    margin-left: 0;
+}
+
+.btn-cerrar,
+.btn-enter{
+    color: #fff;
+}
+
+.btn-cerrar{
+    background-color: $btn-cerrar;
+}
+
+.btn-enter{
+    background-color: $btn-enter;
+}

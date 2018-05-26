@@ -8,17 +8,19 @@
 		  	<div class="col">
 			    <ul class="navbar-nav">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown
+			          Categorías
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Something else here</a>
+			          <a class="dropdown-item" href="#"><i class="fas fa-tv"></i> Sala</a>
+			          <a class="dropdown-item" href="#"><i class="fas fa-utensils"></i> Comedor</a>
+<!--			          <a class="dropdown-item" href="#"> Cocina</a>-->
+<!--			          <div class="dropdown-divider"></div>-->
+                        <a class="dropdown-item" href="#"><i class="fas fa-bed"></i> Dormitorio</a>
+			          <a class="dropdown-item" href="#"><i class="fas fa-bath"></i> Baño</a>
 			        </div>
 			      </li>
 			      
@@ -37,7 +39,7 @@
 			        <a class="nav-link" href="#">Registro</a>
 			      </li>
 			      <li class="nav-item ls-items">
-			        <a class="nav-link" href="#">Ingreso</a>
+			        <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">Ingreso</a>
 			      </li>
 			  </ul>
 		    </div>	
